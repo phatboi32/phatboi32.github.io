@@ -12,6 +12,7 @@
  background-color: rgb(243, 242, 242);
  border-radius: 2px;
  border: transparent;
+ font-family: Roboto;
 }
 .buttondiv{
     display: flex;
@@ -23,6 +24,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    font-family: Roboto;
 }
 .search{
     margin: 0 auto;
@@ -51,6 +53,7 @@ a {
 li {
     float: left;
     text-decoration: none;
+    font-family: Roboto;
 }
 a:link {
     text-decoration: none;
@@ -63,4 +66,17 @@ a:hover {
 }
 a:active {
     text-decoration: none;
+}
+.footerdiv{
+    background-color: rgb(243, 242, 242);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 10%;
+    padding-top: 3%;
+    font-family: Roboto;
+}
+.right-footer{
+    float: right;
+    padding-right: 5%;
 }
