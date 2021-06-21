@@ -72,11 +72,16 @@ a:active {
     position: fixed;
     width: 100%;
     bottom: 0;
-    height: 10%;
+    height: 5%;
     padding-top: 3%;
     font-family: Roboto;
 }
 .right-footer{
     float: right;
     padding-right: 5%;
+}
+.footer-line{
+    padding-top: 5%;
+    border-top: 1px solid rgb(207, 207, 207);
+    border-left: transparent;
 }
