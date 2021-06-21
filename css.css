@@ -10,8 +10,11 @@
  width: 120px;
  height: 30px;
  background-color: rgb(243, 242, 242);
- border-radius: 2px;
- border: transparent;
+ border-radius: 5px;
+ /* border: 50px; */
+ border-width: 1px;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 2px 8px 0 rgba(0,0,0,0.19);
+ 
  font-family: Roboto;
 }
 .buttondiv{
@@ -64,9 +67,7 @@ a:link {
 a:visited{
     text-decoration: none;
 }
-a:hover {
-    text-decoration: none;
-}
+
 a:active {
     text-decoration: none;
 }
@@ -94,8 +95,6 @@ a:active {
 p{
     font-family: Roboto;
 }
-.search-icon {
-    width: 25px;
-    height: 25px;
-    margin-right: 1rem;
-  }
+input {
+    outline: none;
+}
