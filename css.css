@@ -51,7 +51,7 @@ ul {
 a {
     display: inline;
     padding: 8px;
-    color: black;
+    color: rgb(112, 112, 112);
 }
 li {
     float: left;
@@ -84,6 +84,7 @@ a:active {
     float: right;
     padding-right: 5%;
     list-style-type: none;
+    color:rgb(112, 112, 112)
 }
 .footer-line{
     padding-top: 10%;
